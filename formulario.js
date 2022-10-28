@@ -9,7 +9,7 @@ formulario.onsubmit = function(e) {
   var na = formulario.elements[2]
 
   var nombre = n.value
-  var edad = e.value
+  var edad = e.values
 
   var i = na.selectedIndex
   var nacionalidad = na.options[i].value
